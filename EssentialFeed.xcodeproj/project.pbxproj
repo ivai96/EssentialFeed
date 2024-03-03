@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B1DCAB2B93B468007339EA /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B1DCAA2B93B468007339EA /* RemoteFeedLoaderTests.swift */; };
 		C2F248E12B912B63009057DB /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = C2F248E02B912B63009057DB /* EssentialFeed.docc */; };
 		C2F248E72B912B64009057DB /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F248DC2B912B63009057DB /* EssentialFeed.framework */; };
 		C2F248EC2B912B64009057DB /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F248EB2B912B64009057DB /* EssentialFeedTests.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2B1DCAA2B93B468007339EA /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		C2F248DC2B912B63009057DB /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F248E02B912B63009057DB /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
 		C2F248E62B912B64009057DB /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C2F248EB2B912B64009057DB /* EssentialFeedTests.swift */,
+				C2B1DCAA2B93B468007339EA /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B1DCAB2B93B468007339EA /* RemoteFeedLoaderTests.swift in Sources */,
 				C2F248EC2B912B64009057DB /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
